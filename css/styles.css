@@ -1,0 +1,235 @@
+@font-face{
+	font-family: "Britannic Bold";
+	src:url("../fonts/BRITANIC.TTF");
+}
+@font-face{
+	font-family: 'Agenda-Medium';
+	src:url("../fonts/Agenda Medium.TTF");
+}
+body{
+	font-family:'Agenda-Medium';
+	font-size: 14px;
+	color: #FFFFFF
+}
+
+a{
+	color: #FFFFFF;
+}
+header{
+	background-color: #FFFFFF;
+	text-align: left;
+	font-size: 32px;
+	font-weight: 600;
+    font-family: "Britannic Bold";
+	}
+.qs{
+  background-color:#0071B2;
+  padding-top:15px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 750ms;}
+.qs:hover {
+	background-color:#00314E;}
+.resenas{
+	background-color:#E31C24;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.resenas:hover {
+	background-color:#8A0005;}
+.contactanos{
+	background-color: #378E04;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.contactanos:hover {
+	background-color:#1E4F01;}
+.planea{
+	background-color: #ED891E;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.planea:hover {
+	background-color:#944C00;}
+
+#quieress{
+	background-image: url("../img/ruinas.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 250px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family:"Britannic Bold";
+}
+#quieres h1{
+	font-size: 54px;
+}
+#quieres hr{
+	height: 8px;
+	width: 200px;
+	background-color:#ED891E;
+	position: relative;
+	
+}
+#viaja{
+	text-transform:uppercase;
+	font-family: "Britannic Bold";
+	background-position: center;
+	text-align: center;
+		}
+#viaja h3{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 32px;
+}
+#viaja .btn{
+	background:#4A4A4A;
+	padding: 5px 10px;
+	background-position: center;
+	border-radius: 0px;
+	border-color:transparent;
+	font-family: "Britannic Bold";
+	font-size: 32px; 
+}
+.circulo{
+		height: 15px;
+	
+}
+.menu{
+	font-family:"Britannic Bold"; 
+	font-size: 24px;
+	color: #FFFFFF;
+					}
+hr {
+  height: 4px;
+  background-color:#ED891E;
+}
+#lugares{
+	color: #000000;
+	text-align: center;
+	padding: 50px 0px;
+}
+#lugares article{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#lugares img{
+	width: auto;
+	height: 240px;
+
+}
+#carusel{
+	background-image: url("../img/diablos.png");
+	padding: 400px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 10px 0;
+
+}
+#fotografias h2{
+	color: #000000;
+	margin-bottom: 20px;
+	text-align: top;
+}
+#fotografias h4{
+	color: #000000;
+	margin-top: 15px;
+	text-align: center;
+	font-size: 24px;
+	position: inherit;
+	
+}
+
+.subseccion{
+	background-color: #363636;
+	margin: 10px 0px;
+	padding: 10px 0;
+		}
+.titleviajes{
+	font-family: "Britannic Bold";
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+	margin-left: 10px;
+	margin-top: 5px;
+			}
+.subtitleviajes{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 10px;
+	font-weight: 300;
+	color:#FFFFFF; 
+}
+.sectionspan{
+	background-color:#606060;
+	padding: 10px 0;
+}
+.title{
+	font-family:"Britannic Bold";
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 10px;
+}
+.subtitle{
+	font-family:"Britannic Bold";
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.section-w {
+	padding:10px 0;
+	background-color: #FFFFFF;
+}
+#pie{
+	background-color:#424242;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+#footer-one{
+	background-image:url("../img/logob.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 50px;
+	text-align: center;
+	padding: 0 40px;
+	padding-top: 50px;
+    border-right: 8px solid #EB871B;
+	}
+#footer-two {
+	text-align:justify;
+	padding-top:40px;
+	padding-left: 40px;
+    border-right: 8px solid #EB871B;
+}
+#footer-three {
+	text-align:justify;
+	padding-top:50px;
+	padding-left: 35px;
+    border-right: 8px solid #EB871B;
+}
+#footer-four {
+	text-align:justify;
+	padding-top: 25px ;
+	padding-right: 35px;
+  
+		}
+#copy{
+	text-align: right;
+	padding-right: 35px;
+	font-size:18px;
+	}
+    
+
+
+
+
+
+
+
