@@ -1,3 +1,4 @@
+
 a{
 	outline:0 !important;	
 }
@@ -11,7 +12,46 @@ a{
 	font-weight:600;
 	text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 40px 80px;
+    padding: 45px 90px !important; 
+    text-align: center;
+    
+}
+.navbar-light .navbar-nav .nav-link.qs{
+	color:#fff;	
+	font-weight:600;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 45px 35px !important; 
+    text-align: center;
+    
+}
+
+.navbar-light .navbar-nav .nav-link.resenas{
+	color:#fff;	
+	font-weight:600;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    text-align: center;
+    
+}
+
+.navbar-light .navbar-nav .nav-link.contactanos{
+	color:#fff;	
+	font-weight:600;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+   padding: 45px 60px !important;
+    text-align: center;
+    
+}
+
+.navbar-light .navbar-nav .nav-link.planea{
+	color:#fff;	
+	font-weight:600;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    
     text-align: center;
     
 }
@@ -19,11 +59,11 @@ a{
 	color:#fff;
 }
 .navbar-light .navbar-nav .active .nav-link{
-	background-color:transparent;
+	background-color:#0071B2;
 	color:#fff;
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
-	background-color:transparent;
+	background-color:#004E7B;
 	color:#fff;
 }
 
@@ -85,17 +125,3 @@ a{
 
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

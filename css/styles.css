@@ -37,6 +37,19 @@ header{
     transition-duration: 750ms;}
 .resenas:hover {
 	background-color:#8A0005;}
+header{
+background-color: #FFFFFF;
+    text-align: center;
+	padding-left: 200px;
+	}
+.qs{
+  background-color:#0071B2;
+  padding-top:15px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 750ms;}
+.qs:hover {
+	background-color:#00314E;}
 .contactanos{
 	background-color: #378E04;
 	padding-top: 30px;
@@ -146,8 +159,7 @@ hr {
 .subseccion{
 	background-color: #363636;
 	margin: 10px 0px;
-	padding: 10px 0;
-		}
+	padding: 10px 0;}
 .titleviajes{
 	font-family: "Britannic Bold";
 	font-size: 24px;
@@ -186,6 +198,95 @@ hr {
 	padding:10px 0;
 	background-color: #FFFFFF;
 }
+#somos{
+	background-image: url("../img/chicos.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding: 200px 0px;
+	
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+
+#somos div{ 
+    
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 300px;  
+    
+}
+
+
+#vision{
+	
+	background-position: center;
+	text-align: left;
+	background-image:url("../img/old-1130731_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 150px;
+	
+		}
+#vision h3{
+	margin-top: 5px;
+	margin-bottom: 50px;
+	font-size: 42px;
+	text-align: left;
+	font-family: "Britannic Bold";
+    border-right: 25px solid #008845;
+    margin-right: 350px;
+     padding: 15px 25px;
+    background-image: url("../img/cuadro_1.png");
+        background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+}
+#vision p{
+    background-image: url("../img/cuadro_1.png");
+	margin-top: 5px;
+	font-size: 22px;
+	text-align: left;
+	font-family: "Britannic Bold";
+    border-right: 25px solid #008845;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+
+}
+
+ #mision h2{
+    text-align:left;
+     border-right: 4px solid #fff;
+     margin-right: 800px;
+     border-bottom:  4px solid #fff;
+     border-width: 5px; position:relative;
+     
+}   
+#vision article:last-child{
+	margin-top: 50px;
+	margin-left: 645px;
+}
+
+#vision article:first-child{
+	margin-top: -10px;
+	}
+#roa{
+	background-image: url("../img/Recurso 1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 350px;
+	
+}
+
 #pie{
 	background-color:#424242;
 	padding-top: 20px;
@@ -225,7 +326,6 @@ hr {
 	padding-right: 35px;
 	font-size:18px;
 	}
-    
 
 
 
