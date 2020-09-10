@@ -17,7 +17,7 @@ a{
 }
 header{
 	background-color: #FFFFFF;
-	text-align: left;
+	text-align: center;
 	font-size: 32px;
 	font-weight: 600;
     font-family: "Britannic Bold";
@@ -37,11 +37,7 @@ header{
     transition-duration: 750ms;}
 .resenas:hover {
 	background-color:#8A0005;}
-header{
-background-color: #FFFFFF;
-    text-align: center;
-	padding-left: 200px;
-	}
+
 .qs{
   background-color:#0071B2;
   padding-top:15px;
@@ -133,29 +129,25 @@ hr {
 	height: 240px;
 
 }
-#carusel{
-	background-image: url("../img/diablos.png");
-	padding: 400px;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 10px 0;
 
-}
+
 #fotografias h2{
 	color: #000000;
 	margin-bottom: 20px;
 	text-align: top;
 }
 #fotografias h4{
-	color: #000000;
+	color: #fff;
 	margin-top: 15px;
 	text-align: center;
 	font-size: 24px;
-	position: inherit;
+	
 	
 }
-
+#fotografias {
+	text-align: center;
+	
+}
 .subseccion{
 	background-color: #363636;
 	margin: 10px 0px;
@@ -199,26 +191,32 @@ hr {
 	background-color: #FFFFFF;
 }
 #somos{
-	background-image: url("../img/chicos.png");
+	background-image: url("../img/chicos-caminando.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
-	padding: 200px 0px;
-	
+	padding: 20% 0px;
 	text-align: center;
 	text-transform: uppercase;
 
 }
+#somos p{
+    background-image: url("../img/cuadro-azul.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 8% 0% 12% 9%;
+    font-size: 2vw;
+   
+
+    
+    }
 
 
 #somos div{ 
     
     text-align: left;
     color: #FFFFFF;
-    font-size: 20px;
-    margin-left: 100px;
-    margin-right: 300px;  
     
 }
 
@@ -231,7 +229,9 @@ hr {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
-	padding: 150px;
+	padding: 5% 0;
+    width: 100%;
+    height: auto;
 	
 		}
 #vision h3{
@@ -241,21 +241,21 @@ hr {
 	text-align: left;
 	font-family: "Britannic Bold";
     border-right: 25px solid #008845;
-    margin-right: 350px;
-     padding: 15px 25px;
+    margin-right: 40%;
+    padding: 1% 8%;
     background-image: url("../img/cuadro_1.png");
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px 0 0 20px;
 }
 #vision p{
-    background-image: url("../img/cuadro_1.png");
+    background-image: url("../img/cuadro-verde.png");
 	margin-top: 5px;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: left;
 	font-family: "Britannic Bold";
     border-right: 25px solid #008845;
-    padding: 20px;
+    padding: 7% 2%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px 0 0 20px;
@@ -265,25 +265,25 @@ hr {
  #mision h2{
     text-align:left;
      border-right: 4px solid #fff;
-     margin-right: 800px;
+     margin-right: 35%;
      border-bottom:  4px solid #fff;
-     border-width: 5px; position:relative;
+     border-width: 8%; position:relative;
+     font-size: 5.5vw;
+   
      
 }   
 #vision article:last-child{
-	margin-top: 50px;
-	margin-left: 645px;
+	margin-top: 12%;
+	
 }
 
-#vision article:first-child{
-	margin-top: -10px;
-	}
+
 #roa{
 	background-image: url("../img/Recurso 1.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 350px;
+	padding: 20% 0;
 	
 }
 
@@ -327,8 +327,13 @@ hr {
 	font-size:18px;
 	}
 
-
-
+.fab, .far, .fas{
+    font-size: 25px;
+}
+#fotografias .carousel-indicators{
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 
 
