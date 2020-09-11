@@ -75,7 +75,7 @@ a{
 .navbar-light .navbar-nav .show > .nav-link:focus,
 .navbar-light .navbar-nav .show > .nav-link:hover{
     color: #fff;
-    background-color: transparent;
+    background-color:#212121;
 }
 
 .dropdown-menu{
