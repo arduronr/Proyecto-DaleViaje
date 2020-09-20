@@ -1,6 +1,7 @@
 
 a{
-	outline:0 !important;	
+	outline:0 !important;
+    color: #fff!important;
 }
 .navbar-light {
 	background-color:#ffffff !important;
@@ -12,21 +13,22 @@ a{
 	font-weight:600;
 	text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 45px 90px !important; 
+    padding: 45px 65px !important; 
     text-align: center;
     
 }
-.navbar-light .navbar-nav .nav-link.qs{
+.navbar-light .navbar-nav .nav-link.qs.qs1.qs2.qs3.s4{
 	color:#fff;	
 	font-weight:600;
 	text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 45px 35px !important; 
+    padding: 45px 25px !important; 
     text-align: center;
     
 }
 
-.navbar-light .navbar-nav .nav-link.resenas{
+
+.navbar-light .navbar-nav .nav-link.resenas,.resenas1,.resenas2,.resenas3,.resenas4{
 	color:#fff;	
 	font-weight:600;
 	text-transform: uppercase;
@@ -36,17 +38,17 @@ a{
     
 }
 
-.navbar-light .navbar-nav .nav-link.contactanos{
+.navbar-light .navbar-nav .nav-link.contactanos,.contactanos1,.contactanos2,.contactanos3,.contactanos4{
 	color:#fff;	
 	font-weight:600;
 	text-transform: uppercase;
     letter-spacing: 1px;
-   padding: 45px 60px !important;
+   padding: 45px 40px !important;
     text-align: center;
     
 }
 
-.navbar-light .navbar-nav .nav-link.planea{
+.navbar-light .navbar-nav .nav-link.planea,.planea1,.planea2,.planea3,.planea4{
 	color:#fff;	
 	font-weight:600;
 	text-transform: uppercase;
@@ -58,14 +60,23 @@ a{
 .navbar-light .navbar-nav .nav-link:hover{
 	color:#fff;
 }
-.navbar-light .navbar-nav .active .nav-link{
+.navbar-light .navbar-nav .active .nav-link.qs{
 	background-color:#003F63;
 	color:#fff;
 }
-.navbar-light .navbar-nav .active .nav-link:hover{
-	background-color:#004E7B;
+.navbar-light .navbar-nav .active .nav-link.contactanos2{
+	background-color:#378E04;
 	color:#fff;
 }
+.navbar-light .navbar-nav .active .nav-link.resenas3{
+	background-color:#E31C24;
+	color:#fff;
+}
+.navbar-light .navbar-nav .active .nav-link.planea4{
+	background-color:#ED891E;
+	color:#fff;
+}
+
 
 
 

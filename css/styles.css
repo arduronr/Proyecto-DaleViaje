@@ -37,15 +37,6 @@ header{
     transition-duration: 750ms;}
 .resenas:hover {
 	background-color:#8A0005;}
-
-.qs{
-  background-color:#0071B2;
-  padding-top:15px;
-  text-align: center;
-  transition-property: background-color;
-  transition-duration: 750ms;}
-.qs:hover {
-	background-color:#00314E;}
 .contactanos{
 	background-color: #378E04;
 	padding-top: 30px;
@@ -61,8 +52,7 @@ header{
 .planea:hover {
 	background-color:#944C00;}
 .qs1{
-	
-  background-color:#2D2D2D;
+  background-color:#0071B2;
   padding-top:15px;
   text-align: center;
   transition-property: background-color;
@@ -70,27 +60,117 @@ header{
 .qs1:hover {
 	background-color:#00314E;}
 .resenas1{
-	background-color:#E31C24;
-	padding-top: 15px;
+	background-color:#424242;
+	padding-top: 30px;
     transition-property: background-color;
     transition-duration: 750ms;}
 .resenas1:hover {
-	background-color:#8A0005;}
+	background-color:#E31C24;}
+
 .contactanos1{
-	background-color: #636363;
+	background-color: #565656;
 	padding-top: 30px;
     transition-property: background-color;
     transition-duration: 750ms;}
 .contactanos1:hover {
-	background-color:#1E4F01;}
+	background-color:#378E04;}
 .planea1{
-	background-color: #9F9F9F;
+	background-color: #919191;
 	padding-top: 30px;
     transition-property: background-color;
     transition-duration: 750ms;}
 .planea1:hover {
-	background-color:#944C00;}
+	background-color:#ED891E;}
+.qs2{
+  background-color:#424242;
+  padding-top:15px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 750ms;}
+.qs2:hover {
+	background-color:#003F63;}
+.resenas2{
+	background-color:#565656;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.resenas2:hover {
+	background-color:#E31C24;}
 
+.contactanos2{
+	background-color: #378E04;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.contactanos2:hover {
+	background-color:#1E4F01;}
+.planea2{
+	background-color: #919191;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.planea2:hover {
+	background-color:#ED891E;}
+.qs3{
+  background-color:#424242;
+  padding-top:15px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 750ms;}
+.qs3:hover {
+	background-color:#003F63;}
+.resenas3{
+	background-color:#E31C24;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.resenas3:hover {
+	background-color:#8A0005;}
+
+.contactanos3{
+	background-color: #565656;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.contactanos3:hover {
+	background-color:#378E04;}
+.planea3{
+	background-color: #919191;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.planea3:hover {
+	background-color:#ED891E;}
+.qs4{
+  background-color:#424242;
+  padding-top:15px;
+  text-align: center;
+  transition-property: background-color;
+  transition-duration: 750ms;}
+.qs4:hover {
+	background-color:#003F63;}
+.resenas4{
+background-color: #565656;
+	padding-top: 30px;
+  	transition-property: background-color;
+    	transition-duration: 750ms;}
+.resenas4:hover {
+	background-color:#E31C24;}
+
+.contactanos4{
+	background-color: #919191;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.contactanos4:hover {
+	background-color:#378E04;}
+.planea4{
+	background-color: #ED891E;
+	padding-top: 30px;
+    transition-property: background-color;
+    transition-duration: 750ms;}
+.planea4:hover {
+	background-color:#944C00;}
 
 #quieress{
 	background-image: url("../img/ruinas.png");
@@ -438,11 +518,14 @@ position:center;
 	height: 240px;
 	
 }
-
+.pro{
+    margin: 5% 0;
+}
 .subseccionv{
 	background-color: #363636;
 	margin: 15px 0px;
-	padding: 5% 0 30% 0 ;
+	padding: 5% 0 20% 0 ;
+    margin-bottom: 50px;
 		}
 .titleviajesv{
 	font-family: "Britannic Bold";
@@ -465,34 +548,87 @@ position:center;
 	background-color: #FFFFFF;
 
 }
-#heror {
-	
-	background-color: #363636;
 
-	
-}
+.rese1{
+	background-image: url("../img/rese 1.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+    	background-size: cover;
+   	padding: 10%  0;		}
+.rese2{
+	background-image: url("../img/rese 2.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+    	background-size: cover;
+   	padding: 10%  0;		}
+.rese3{
+	background-image: url("../img/rese 3.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+    	background-size: cover;
+   	padding: 10%  0;		}
+.rese4{
+	background-image: url("../img/rese 4.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+    	background-size: cover;
+   	padding: 10%  0;		}
+.rese5{
+	background-image: url("../img/rese 5.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+    	background-size: cover;
+   	padding: 10%  0;		}
 
-#heror .container-fluid article{
-	background-color: #FFFFFF;
-	padding: 0px;
+#heror img{
+	weight: 100%;
+	height: auto;
 }
 #heror2 {
 	
 	background-color: #363636;
 }
+#heror2 .btn{
+	background:rgba(0,0,0,0.66);
+	padding:0% 4%;
+    position: absolute; 
+    right: 0; 
+    bottom: 1%;
+	margin-left: 80%;
+    font-size: 16px;
+	border-radius: 0px;
+	border-color:transparent;
+	font-family: "Britannic Bold";
+	 
+}
 
+#heror .btn{
+	background:rgba(0,0,0,0.66);
+	padding:0% 4%;
+    position: absolute; 
+    right: 0; 
+    bottom: 1%;
+	margin-left: 80%;
+    font-size: 16px;
+	border-radius: 0px;
+	border-color:transparent;
+	font-family: "Britannic Bold";
+	 
+}
+	 
 a{
 	color: #FFFFFF;
 }
 
 #contactanos{
 	background-image: url("../img/contactanos.png");
-	padding: 330px 0px;
+	padding: 10% 0px;
 	text-transform:uppercase;
 	font-family: "Britannic Bold";
 	background-position: center;
 	text-align: center;
     background-repeat: no-repeat;
+    background-size: cover;
 		}
 #contactanos h3{
 	margin-top: 5px;
@@ -508,6 +644,9 @@ a{
 	font-family: "Britannic Bold";
 	font-size: 32px; 
     margin-top: 15%;
+}
+#spa{
+   padding: 5% 0; 
 }
 .circulo{
 		height: 15px;
@@ -597,6 +736,401 @@ hr {
 }
 
 
+
+#h3  {
+background-image: url("../img/promos.jpg");
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 12% 0;
+}
+
+#h3 .content {
+position:center;
+  bottom:0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 50%;
+  padding: 1%;
+  display: grid;
+  margin-left: 50%;
+  margin-top: -10%;
+  
+}
+#h3 h2 {
+font-size: 80px;
+  
+}
+#h3 h3 {
+font-size: 30px;
+  
+}
+				
+				
+.cabanas{
+	background-image: url("../img/domos.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.dive{
+	background-image: url("../img/ALTON.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.anthony{
+	background-image: url("../img/Anthony.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.mar{
+	background-image: url("../img/Costa Mar.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.verde{
+	background-image: url("../img/Monte verde.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.bella{
+	background-image: url("../img/Costa bella.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.lisma{
+	background-image: url("../img/Klisma.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.lolita{
+	background-image: url("../img/Lolila.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.ejecutivo{
+	background-image: url("../img/Apart.jpg");
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    padding: 5% 0;
+}
+.desc article:last-child{
+	padding-left: 15%;
+	
+}
+.hot, .desc{
+	background-color: rgba(0, 0, 0, .5);
+	
+    padding: 1% 0;
+}
+
+.hot{
+    margin-top: -5%;
+    margin-left: -5%
+}
+.desc{
+    text-align: justify;
+    margin: 0 10%;
+    margin-top: 10%; 
+
+}
+.desc h3{
+  font-family: "Britannic Bold";
+  font-size: 28px; 
+
+}
+#hotel .btn{
+  background-color: rgba(237, 137, 30, .9);
+	padding: 5px 15px;
+	font-size: 24px;
+    margin-left: 84%;
+    margin-top:3%;
+	font-weight: 600;
+	border-color: transparent; 
+    align-content: flex-end;
+    color:#fff;font-family: "Britannic Bold";
+    border-radius: 0;
+}
+#hotel .title{
+    font-size: 35px;
+    text-align: left;
+    padding-left: 8%;
+    margin-right: 25%;
+}
+
+#contact-form{
+	background-image: url("../img/isla_corazon_1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:auto;
+	color: #fff;
+	padding: 10% 0;
+
+}
+#fotosola{
+	background-image: url("../img/pula_1.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	padding: 15% 0;
+}
+#resena-copan{
+	background-image:url("../img/cara.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25% 5%;
+}
+#resena-lempira{
+	background-image:url("../img/lempira.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25% 5%;
+}
+#resena-cantaranas{
+	background-image:url("../img/place-central-america-honduras-cantarranas-02.jpg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25% 5%;
+}
+#resena-roa{
+	background-image:url("../img/roatan.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25% 5%;
+}
+#resena-sanjuancito{
+	background-image:url("../img/sanjuancito.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25% 5%;
+}
+
+
+.bandera-copan{
+	
+	
+background-image:url("../img/copan.jpg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 15%;
+}
+.bandera-cantarana{
+	
+	
+background-image:url("../img/cantaranas.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 15%;
+}
+
+.bandera-lempira{
+	
+	
+background-image:url("../img/lempira-estrellas.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 15%;
+}
+.bandera-sanjuancito{
+	
+	
+background-image:url("../img/samjuancito-estrellas.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 15%;
+}
+.bandera-roa{
+	
+	
+background-image:url("../img/roatan-estrellas.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 15%;
+}
+.bandera-texto{
+	color: #000000;
+	background-color: #fff;
+	padding-top: 5%;
+	padding-bottom:10%; 
+	font-size: 18px;
+}
+#resena-copan{
+	
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+#resena-cantaranas{
+	
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+#resena-lempira{
+	
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+#resena-roa{
+	
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+#resena-sanjuancito{
+	
+	margin: 0%;
+	padding: 0%;
+	
+}
+
+.bandera-twitter-copan{
+	margin-top: 30%; 
+	margin-left: 7%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	color:#000000;
+	background-color: #FFFFFF;
+	border-right:14px solid #11700A;
+	
+	
+}
+.bandera-twitter-cantaranas{
+	margin-top: 30%; 
+	margin-left: 7%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	color:#000000;
+	background-color: #FFFFFF;
+	border-right:14px solid #C015B5;
+	
+	
+}
+.bandera-twitter-lempira{
+	margin-top: 30%; 
+	margin-left: 7%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	color:#000000;
+	background-color: #FFFFFF;
+	border-right:14px solid #D8861D;
+	
+	
+}
+.bandera-twitter-roa{
+	margin-top: 30%; 
+	margin-left: 7%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	color:#000000;
+	background-color: #FFFFFF;
+	border-right:14px solid #0A0492;
+	
+	
+}
+.bandera-twitter-sanjuancito{
+	margin-top: 30%; 
+	margin-left: 7%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	color:#000000;
+	background-color: #FFFFFF;
+	border-right:14px solid #72098F;
+	
+	
+}
+
+.foto-perfil{
+	padding-top: 15%;
+}
+
+#resena-copan p{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom:0;
+}
+
+#resena-copan h2{
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+
+#resena-cantaranas h2{
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+}
+#resena-cantaranas p{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom:0;
+}
+
+#resena-lempira h2{
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+}
+#resena-lempira p{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom:0;
+}
+
+#resena-roa h2{
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+}
+#resena-roa p{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom:0;
+}
+
+#resena-sanjuancito h2{
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+}#resena-sanjuancito p{
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom:0;
+}
+.fa-twitter-square{
+	font-size: 24px;
+}
 #h1  {
 background-image: url("../img/hoteles.jpg");
 	background-position: center;
@@ -627,22 +1161,148 @@ font-size: 80px;
 font-size: 30px;
   
 }
-#contact-form{
-	background-image: url("../img/isla_corazon_1.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: #fff;
-	padding: 12% 0;
-
+#promo1{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
 }
-#fotosola{
-	background-image: url("../img/pula_1.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding: 25% 5%;
+#promo1:hover {background-color: rgba(0,0,0,0.5);}
+#promo2{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo2:hover {background-color: rgba(0,0,0,0.5);}
+#promo3{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo3:hover {background-color: rgba(0,0,0,0.5);}
+#promo4{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo4:hover {background-color: rgba(0,0,0,0.5);}
+#promo5{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo5:hover {background-color: rgba(0,0,0,0.5);}
+#promo6{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo6:hover {background-color: rgba(0,0,0,0.5);}
+#promo7{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo7:hover {background-color: rgba(0,0,0,0.5);}
+#promo8{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo8:hover {background-color: rgba(0,0,0,0.5);}
+#promo9{
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#promo9:hover {background-color: rgba(0,0,0,0.5);}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+}
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
 
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close1, .close2, .close3, .close4, .close5, .close6, .close7, .close8, .close9{
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close1, .close2, .close3, .close4, .close5, .close6, .close7, .close8, .close9:hover,
+.close1, .close2, .close3, .close4, .close5, .close6, .close7, .close8, .close9:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+fieldset {
+  background-color:rgba(215,215,215,0.50);
+  width : 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+input,textarea:invalid:required {
+  background-color:rgba(215,215,215,0.50);
+}
+
+input,textarea:valid {
+  border: 1px solid black;
+    background-color:rgba(215,215,215,0.50);}
 

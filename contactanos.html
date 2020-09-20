@@ -15,8 +15,8 @@
 </head>
 	<body>
 <header>
-	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+	  
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <a class="navbar-brand" href="index.html"><img  src="img/dale-viaje.png" class="img-responsive"  alt="log-Dale-Viaje" ></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -25,50 +25,79 @@
   <div class="collapse navbar-collapse" id="navbar">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item ">
-        <a class="nav-link qs" href="quienes-somos.html">¿Quiénes somos?</a>
+        <a class="nav-link qs2" href="quienes-somos.html">¿Quiénes somos?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link resenas" href="resenas-daleviaje.html">Reseñas</a>
+        <a class="nav-link resenas2" href="resenas-daleviaje.html">Reseñas</a>
       </li>
          <li class="nav-item active">
-        <a class="nav-link contactanos" href="contactanos.html">Contáctanos</a>
+        <a class="nav-link contactanos2" href="contactanos.html">Contáctanos</a>
       </li>
          <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle planea" href="planea-daleviaje.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle planea2" href="planea-daleviaje.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Planea</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="planea-daleviaje.html">Planea</a>
             <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="lugares-turisticos.html">Viajes</a>
           <a class="dropdown-item" href="dale-viaje-hoteles.html">Hoteles</a>
-          <a class="dropdown-item" href="#">Promociones</a>
+          <a class="dropdown-item" href="promosiones-daleviaje.html">Promociones</a>
         </div>
       </li>
-    </ul>
+</ul>
 
   </div>
 </nav>
+
 </header>
-        <section id="contact-form" class="section">
-		<div class="container">
-					<form name="contacto" id="contacto" method="post" action="">
-						<div class="row">
-							<div class="form-group col-md-6">
-								<input name="nombre" id="nombre" class="form-control" type="text" placeholder="Nombre">
-							</div>
-					
-							<div class="form-group col-md-6">
-								<input name="correo" id="correo" class="form-control" type="email" placeholder="Email">
-							</div>
-						</div>	
-						
-						<div class="form-group">
-							<textarea name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje"></textarea>
-						</div>
-						<div class="form-group">
-							<button type="submit" class="btn-dark btn-block">Enviar</button>		
-						</div>
+        <section id="contact-form">
+            
+            
+                <div class="container">
+                    <form name="contacto" id="contacto" method="post" action="">
+            <div class="row">
+		        <article class="col-md-6 col-sm-12 form-group">
+                     <div class="form-group row">
+				 <label for="inputname" class="col-sm-2 col-form-label">Nombre</label>
+                    <div class="col-sm-10">
+                <input  name="nombre" id="nombre" class="form-control" type="text" placeholder="Nombre" required>
+                        </div>
+                          </div>
+                     <div class="form-group row">
+				 <label for="inputemail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+				<input name="correo" id="correo" class="form-control" type="email" placeholder="Email" required>
+                                                </div>
+                          </div>
+                    <div class="form-group row">
+				 <label for="inputemail" class="col-sm-2 col-form-label">Edad</label>
+                    <div class="col-sm-10">
+                <input name="edad" id="edad" class="form-control" type="number" min="18" max="120" placeholder="Edad" pattern="\d+" required>
+                                            </div>
+                          </div>
+                                        <div class="form-group row">
+				 <label for="inputsms" class="col-sm-2 col-form-label">Mensaje</label>
+                    <div class="col-sm-10">
+		        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Mensaje">
+                </textarea>
+                        </div>
+                          </div>
+                    <div class="form-group row">
+				 <label for="inputsms" class="col-sm-9 col-form-label"></label>
+                    <div class="col-sm-4 col-lg-3">
+                <button type="submit" class="btn-dark btn-block" >Enviar</button>
+                                                </div>
+                          </div>
+				</article>
+				<article class="col-md-6 col-sm-12 col-lg-6">
+
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3869.793383206928!2d-87.18881648610032!3d14.08937089012966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa2d4069eb489%3A0x7ce3967d59f13b0!2sBoulevard%20Juan%20Pablo%20II%2C%20Tegucigalpa!5e0!3m2!1ses-419!2shn!4v1600597234486!5m2!1ses-419!2shn" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+				</article>
+                </div>
+
 					</form>	
+
 		</div>
 	</section>
 <section id="fotosola">
@@ -115,7 +144,7 @@
     <div class="lineas">
 		<nav>
 		
-		  <p> <i class="fas fa-map-marker-alt"></i> <a href="#">&nbsp; &nbsp; &nbsp; Blv. Juan Pablo II</a></p>
+		  <p> <i class="fas fa-map-marker-alt"></i> <a href="https://goo.gl/maps/11ygDPHJjyFxjizJ6">&nbsp; &nbsp; &nbsp; Blv. Juan Pablo II</a></p>
 					 <p><br>
 					   <i class="fas fa-home"></i><a href="index.html">&nbsp; &nbsp; &nbsp; &nbsp;Home</a> </p>
         </nav>
